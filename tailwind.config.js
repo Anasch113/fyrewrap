@@ -13,7 +13,8 @@ export default {
         
         'offWhite' : 'hsl(216, 20%, 97%)',
         'light-gradient' : ' #F3F7FA',
-        'light-blue': '#438fda'
+        'light-blue': '#438fda',
+        "red-color": "#C13E31"
         
         
         
@@ -22,9 +23,10 @@ export default {
       textColor: {
        
         'dark-blue' : '#24243e',
-        'text-gray' : 'rgb(107 114 128);'
+        'text-gray' : 'white',
+        "text-red": "#C13E31",
         
-        ,
+        
         
       },
 

@@ -59,6 +59,22 @@
 
     
   }
+  .box:hover{
+    background-color: rgb(234 179 8);
+    color: #000000;
+  }
+  .box-data:hover{
+    background-color: rgb(234 179 8);
+  border: 3px solid #000000 ;
+  color: #000000;
+  }
+  .box-data p:hover{
+    color: #000000;
+  }
+.p-text:hover{
+  color: #000000;
+}
+
 .box-data{
     border: 3px solid #fff;
     border-radius: 30px;

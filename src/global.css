@@ -1,6 +1,11 @@
-
+body{
+  background-color: var(--bg-color);
+   font-family: 'Poppins', sans-serif;;
+}
 :root {
-    --main-color: #3498db; 
-    --nav-bg-color: #ccc9c9;
+    --bg-color: #181818; 
+    --nav-bg-color: #181818;
+    --text-color: #ffffff;
+    --red-color: #C13E31;
     
   }

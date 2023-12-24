@@ -1,19 +1,22 @@
 import React from 'react';
-
+import video from "../../assets/mainpagevideo.mov"
 const Banner = () => {
   return (
     <div className='min-h-screen relative overflow-hidden'>
       {/* Video Background */}
       <div className="absolute top-0 left-0 w-full h-full">
-        <iframe
+        <video
           width="100%"
           height="100%"
-          src="https://www.youtube.com/embed/C-pP4zMIlY0?autoplay=1&controls=0&mute=1&loop=1&playlist=C-pP4zMIlY0"
+          src={video}
           title="YouTube video player"
           frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          autoPlay
+          muted
+          loop
+          
           allowFullScreen
-        ></iframe>
+        ></video>
       </div>
 
   
