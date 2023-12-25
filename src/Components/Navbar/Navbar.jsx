@@ -2,7 +2,9 @@ import React from 'react'
 import "../../app.css"
 import { Link } from 'react-router-dom'
 import logo from '../../assets/sitelogo.png'
+import { useNavigate } from 'react-router-dom'
 const Navbar = () => {
+  const navigate = useNavigate()
 
   return (
     <div className='navbar-container overflow-x-hidden'>
@@ -22,7 +24,7 @@ const Navbar = () => {
 </nav>
 
 <div className="others">
-  <button className='text-text-gray text-xl font-medium px-8 py-3 bg-red-color rounded-lg hover:bg-red-500  max-[860px]:px-5 max-[860px]:py-2'>Login</button>
+  <button onClick={()=> navigate('/login')} className='text-text-gray text-xl font-medium px-8 py-3 bg-red-color rounded-lg hover:bg-red-500  max-[860px]:px-5 max-[860px]:py-2'>Login</button>
 </div>
      
     </div>

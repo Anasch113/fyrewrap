@@ -55,7 +55,7 @@
     padding: 25px;
     max-width: 350px;
     min-width: 350px;
-
+    transition: background-color 0.3s ease;
 
     
   }
@@ -73,6 +73,9 @@
   }
 .p-text:hover{
   color: #000000;
+}
+.h5-text{
+  align-self: flex-start;
 }
 
 .box-data{
@@ -93,21 +96,31 @@ min-height: 160px;
 min-height: 160px;
 max-width: 280px;
 min-width: 280px;
+transition: border-color 0.3s ease, color 0.3s ease;
 
+}
+
+.box:hover .box-data:hover .p-text:hover {
+  border-color: black;
+  color: black;
 
 }
 .box-data h2{
     font-size: 25px;
     
 }
-.box-data p{
+.p-text{
     font-size: 15px;
     align-self: flex-start;
-    color: rgb(205, 207, 212);
+   
 }
 .box-data button{
     align-self:  flex-end;
-    color: rgb(205, 207, 212);
+    
+}
+.box-data button:hover{
+   text-decoration: underline;
+    
 }
 
 @media(max-width:1100px){
