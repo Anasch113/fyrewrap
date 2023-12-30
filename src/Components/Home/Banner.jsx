@@ -14,7 +14,9 @@ const Banner = () => {
           autoPlay
           muted
           loop
-          
+          playsInline 
+          playsinline 
+          preload="auto" 
           allowFullScreen
         ></video>
       </div>

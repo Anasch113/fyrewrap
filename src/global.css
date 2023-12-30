@@ -3,9 +3,10 @@ body{
    font-family: 'Poppins', sans-serif;;
 }
 :root {
-    --bg-color: #181818; 
-    --nav-bg-color: #181818;
-    --text-color: #ffffff;
+    --bg-color: #ffffff; 
+    --nav-bg-color: #c4c4c4;
+    --text-color: rgb(107 114 128);
     --red-color: #C13E31;
+    --form-bg-color: hsl(216, 20%, 97%);
     
   }

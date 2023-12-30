@@ -13,7 +13,7 @@ setActivatedCard(cardNumber)
   return (
     <div className='w-full box-border m-0  flex items-center justify-center'>
         
-<div className='flex items-center justify-center flex-col  w-2/4'>
+<div className='flex items-center justify-center flex-col  w-2/3 max-[700px]:w-full'>
 
     <div className= ' flex gap-8   bg-gray-300 px-16 rounded-2xl max-[550px]:px-10 max-[550px]:gap-4'>
 <button onClick={()=> handleCardClick(1)} className={` font-semibold ${activatedCard === 1 ? 'text-white font-bold text-2xl  bg-gray-500 rounded-xl p-5 max-[550px]:p-2' : 'text-gray-500 text-xl hover:text-gray-400'}`}>Cost Savings</button>

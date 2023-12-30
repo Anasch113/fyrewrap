@@ -5,6 +5,7 @@ import {Link} from "react-router-dom"
 import { useState } from 'react'
 import { FaRegEye } from "react-icons/fa";
 import { FaRegEyeSlash } from "react-icons/fa";
+import Navbar2 from '../Components/Navbar/Navbar2'
 
 const Login = () => {
   const [showPassword, setShowPassword] = useState(false);
@@ -14,6 +15,8 @@ const Login = () => {
     setShowPassword(!showPassword);
   };
   return (
+    <>
+    <Navbar2/>
     <div className='login-container'>
      <div className='login-main-container'>
 
@@ -57,9 +60,9 @@ quick, clean, and straightforward application.</p>
           </div>
         </div>
     </div>
-<button className='bg-gray-500 text-text-gray px-8 py-3 rounded-xl hover:bg-gray-400'>Login</button>
+<button className='bg-gray-500 text-white px-8 py-3 rounded-xl hover:bg-gray-400'>Login</button>
 
-    <div className='text-white text-sm'>
+    <div className='text-text-gray text-sm'>
       <Link to= "/register"> <p>Don't have an account? <span className='text-sm  underline hover:underline hover:text-text-red cursor-pointer'>Register Now</span></p></Link> 
     </div>
     
@@ -69,6 +72,7 @@ quick, clean, and straightforward application.</p>
 
      </div>
     </div>
+    </>
   )
 }
 

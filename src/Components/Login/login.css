@@ -34,7 +34,7 @@ width: 100%;
     border-radius: 20px;
 }
 .left-text{
-    color: white;
+    color: var(--text-color);
     padding: 30px 20px;
     display: flex;
     
@@ -42,8 +42,8 @@ width: 100%;
     gap: 10px;
 }
 .left-text h2{
-font-size: 30px;
-width: 350px;
+font-size: 40px;
+width: 500px;
 font-weight: 700;
 }
 
@@ -64,7 +64,7 @@ font-weight: 700;
     display: flex;
     flex-direction: column;
     gap: 50px;
-    background-color: rgb(28 28 28);
+    background-color: var(--form-bg-color);
 padding: 30px 60px;
 min-height: 350px;
 
@@ -85,12 +85,12 @@ border-radius: 30px;
     outline: none;
     border: 1px solid gray;
     border-radius: 10px;
-    color: #fff;
+    color: var(--text-color);
 
 }
 .login-from h2{
     font-size: 15px;
-    color: #fff;
+    color: var(--text-color);
 }
 
 @media (max-width:870px){
@@ -99,11 +99,22 @@ border-radius: 30px;
         overflow: hidden;
         align-items: center;
     }
+    .left-container{
+        width: 100%;
+        display: flex;
+align-items: center;
+justify-content: center;        
+    }
     .left-text{
         display: flex;
         align-items: center;
         justify-content: center;
-        padding: 0px;
+        padding: 0px 20px;
+        width: 100%;
+    }
+    .left-text h2{
+        width: 100%;
+        font-size: 20px;
     }
 }
 @media (max-width:550px){
@@ -111,6 +122,10 @@ border-radius: 30px;
         flex-direction: column;
         overflow: hidden;
         align-items: center;
+    }
+    .left-container{
+        width: 100%;
+        
     }
     .left-text h2{
         font-size: 17px;
@@ -136,7 +151,7 @@ border-radius: 30px;
     display: flex;
     flex-direction: column;
     gap: 50px;
-    background-color: rgb(28 28 28);
+    background-color: var(--form-bg-color);
 padding: 30px 60px;
 
 
@@ -144,9 +159,11 @@ border-radius: 30px;
 
 }
 .register-main-container{
+
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 20px;
 }
 .small-input{
     padding: 10px 30px;
@@ -154,7 +171,7 @@ border-radius: 30px;
     outline: none;
     border: 1px solid gray;
     border-radius: 10px;
-    color: #fff;
+    color: var(--text-color);
     text-align: start;
     text-align: center;
 
@@ -166,7 +183,7 @@ border-radius: 30px;
     outline: none;
     border: 1px solid gray;
     border-radius: 10px;
-    color: #fff;
+    color: var(--text-color);
 text-align: center;
 }
 

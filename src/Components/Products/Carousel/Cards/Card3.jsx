@@ -6,9 +6,9 @@ const Card3 = () => {
     <div className='flex items-center flex-col gap-10 '>
 
     <div className='flex flex-col items-center justify-center gap-2  py-10'>
-   <p className='text-center w-full'>FyreWrap's superior insulation capabilities minimise heat transfer,</p>
-   <p className='text-center w-full'>bolstering fire safety while reducing the energy required for climate control.</p>
-   <p className='text-center w-full'>The result is a decrease in utility expenses</p>
+   <p className='text-center w-full text-text-gray'>FyreWrap's superior insulation capabilities minimise heat transfer,</p>
+   <p className='text-center w-full text-text-gray'>bolstering fire safety while reducing the energy required for climate control.</p>
+   <p className='text-center w-full text-text-gray'>The result is a decrease in utility expenses</p>
     </div>
 
     <div className='w-full'>

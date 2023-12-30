@@ -14,9 +14,13 @@ const Contact = () => {
 <h1 className='text-5xl text-white font-poppins font-bold self-start max-[550px]:text-2xl'>Want to find out more?</h1>
 <div className="chatting">
   <h3>FyreWrap</h3>
+  <div className='flex flex-col'>
+  <span className='bg-yellow-500 p-3 rounded-full w-2 h-2  -left-7  -top-1  relative'></span>
   <h5>Hello and welcome to FyreWrap Assistance! I'm your dedicated FyreWrap Agent, ready to help with all your needs. please share your name and email. 
 Whether it's about product details, installation guidance, compliance with fire safety codes, quote or any other inquiries regarding FyreWrap, I'm here to 
 assist. How can I help you today?</h5>
+  </div>
+ 
 </div>
 </div>
 

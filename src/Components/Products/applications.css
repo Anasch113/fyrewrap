@@ -1,0 +1,12 @@
+  /* Add your additional styles here */
+  .grayscale {
+    filter: grayscale(100%);
+    transition: filter 01s ease;
+  }
+
+  .grayscale-0 {
+    filter: grayscale(0%);
+  }
+  .bg-white{
+    background-color: white;
+  }

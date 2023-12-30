@@ -14,7 +14,10 @@ export default {
         'offWhite' : 'hsl(216, 20%, 97%)',
         'light-gradient' : ' #F3F7FA',
         'light-blue': '#438fda',
-        "red-color": "#C13E31"
+        "red-color": "#C13E31",
+        'navbar-gray': "#c4c4c4",
+        'bg-whitee': "#fff"
+
         
         
         
@@ -23,8 +26,9 @@ export default {
       textColor: {
        
         'dark-blue' : '#24243e',
-        'text-gray' : 'white',
+        'text-gray' : ' rgb(107 114 128)',
         "text-red": "#C13E31",
+
         
         
         

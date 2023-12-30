@@ -4,6 +4,7 @@ import { Link } from 'react-router-dom'
 import { FaRegEye } from "react-icons/fa";
 import { FaRegEyeSlash } from "react-icons/fa";
 import { useState } from 'react';
+import Navbar2 from '../Components/Navbar/Navbar2';
 const Resgister = () => {
   const [showPassword, setShowPassword] = useState(false);
   const [password, setPassword] = useState('');
@@ -18,13 +19,15 @@ const Resgister = () => {
     setConfirmShowPassword(!showConfirmPassword);
   };
   return (
+    <>
+    <Navbar2/>
     <div className='login-container'>
      
-    <div className='register-main-container'>
+    <div className='register-main-container '>
 
     
      <form className='register-from'>
-    <h2 className='text-text-gray text-2xl'>Register Now</h2>
+    <h2 className='text-text-gray text-2xl max-[550px]:text-center'>Register Now</h2>
     <div className="register-inputs">
 
       <div className='flex items-center gap-3 max-[500px]:flex-col'>
@@ -96,14 +99,15 @@ const Resgister = () => {
         </div>
     
     </div>
-    <button className='bg-gray-500 text-text-gray px-8 py-3 w-2/3 self-center rounded-xl hover:bg-gray-400'>Submit</button>
-    <div className='text-white text-sm flex items-center flex-row justify-center '>
-      <Link to= "/register"> <p>Already have an account? <span className='text-sm  underline hover:underline hover:text-text-red cursor-pointer'>login</span></p></Link> 
+    <button className='bg-gray-500 text-white px-8 py-3 w-2/3 self-center rounded-xl hover:bg-gray-400'>Submit</button>
+    <div className='text-text-gray text-sm flex items-center flex-row justify-center '>
+      <Link to= "/login"> <p>Already have an account? <span className='text-sm  underline hover:underline hover:text-text-red cursor-pointer'>login</span></p></Link> 
     </div>
     
 </form>
 </div>
     </div>
+    </>
   )
 }
 
