@@ -4,6 +4,12 @@
 .min-h-500 {
     min-height: 500px;
   }
+.min-h-400 {
+    min-height: 400px;
+  }
+.min-h-700 {
+    min-height: 700px;
+  }
 .min-h-900 {
     min-height: 900px;
   }
@@ -13,6 +19,13 @@
   .max-h-500 {
     max-height: 500px;
   }
+  .min-h-screen-lg {
+    min-height: 100vh;
+  }
+  .min-h-screen-sm {
+    min-height: 30vh;
+  }
+  
 
 
 

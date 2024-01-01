@@ -1,15 +1,20 @@
 import React from 'react';
 import video from "../../assets/mainpagevideo.mov"
+
 const Banner = () => {
+ 
+
+
   return (
-    <div className='min-h-screen relative overflow-hidden'>
+    <div className=' '>
       {/* Video Background */}
-      <div className="absolute top-0 left-0 w-full h-full">
+
+      <div className="    ">
         <video
           width="100%"
           height="100%"
           src={video}
-          title="YouTube video player"
+          title="FyreWrap Video"
           frameBorder="0"
           autoPlay
           muted
@@ -18,6 +23,8 @@ const Banner = () => {
           playsinline 
           preload="auto" 
           allowFullScreen
+          className='min-h-screen-lg max-[600px]:min-h-0'
+          
         ></video>
       </div>
 

@@ -3,6 +3,7 @@
 box-sizing: border-box;
 margin: 0;
 padding: 0;
+overflow: hidden;
 
 }
 .login-main-container{
@@ -45,12 +46,14 @@ width: 100%;
 font-size: 40px;
 width: 500px;
 font-weight: 700;
+animation: fadeIn 1s ease-in-out;
 }
 
 
 .p-span p{
     font-size: 15px;
     width: 487px;
+    animation: fadeIn 1s ease-in-out;
 }
 .right-container{
     display: flex;
@@ -220,3 +223,13 @@ text-align: center;
 }
 
 }
+
+
+@keyframes fadeIn {
+    from {
+      opacity: 0;
+    }
+    to {
+      opacity: 1;
+    }
+  }

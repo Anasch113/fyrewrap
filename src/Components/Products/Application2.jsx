@@ -48,7 +48,7 @@ const Application2 = () => {
 
 
   return (
-    <div className='w-full flex items-center justify-evenly min-h-500 flex-col mb-9'>
+    <div className='w-full flex items-center justify-evenly min-h-500 flex-col '>
       <div className='flex flex-row w-full  gap-3  justify-center wow animate__animated animate__rotateIn'>
 
      
@@ -63,18 +63,18 @@ const Application2 = () => {
           playsinline 
           preload="auto"  src={product5} className='w-full h-full object-cover ' alt="" />
         </div>
-        <div id='textBox1-2' className={`bg-yellow-500 w-2/4 flex justify-center flex-col px-5  cursor-pointer max-[550px]:w-2/4 transition-colors duration-500`}>
-          <h1 className='text-4xl text-gray-500 font-poppins font-semibold max-[550px]:'>Carpark</h1>
-          <h1 className='text-4xl text-gray-500 font-poppins font-semibold'>Exhaust</h1>
-          <h1 className='text-4xl text-gray-400 font-poppins font-semibold'>Duct</h1>
+        <div id='textBox1-2' className={`bg-yellow-500 w-2/4 flex justify-center flex-col px-5  cursor-pointer max-[600px]:w-2/4 transition-colors duration-500 `}>
+          <h1 className='text-4xl text-gray-500 font-poppins font-semibold  max-[450px]:text-3xl wow animate__animated animate__fadeIn'>Carpark</h1>
+          <h1 className='text-4xl text-gray-500 font-poppins font-semibold max-[450px]:text-3xl wow animate__animated animate__fadeIn '>Exhaust</h1>
+          <h1 className='text-4xl text-gray-400 font-poppins font-semibold max-[450px]:text-3xl wow animate__animated animate__fadeIn'>Duct</h1>
         </div>
       </div>
       {/* 2 */}
       <div  className='w-full flex flex-row justify-between'>
-        <div id='textBox2-2' className={`bg-yellow-500 w-2/4 flex items-end  justify-center flex-col px-5  cursor-pointer max-[550px]:w-2/4 transition-colors duration-500 `}>
-          <h1 className='text-4xl text-gray-500 font-poppins font-semibold'>Kitchen</h1>
-          <h1 className='text-4xl text-gray-500 font-poppins font-semibold'>Extraction</h1>
-          <h1 className='text-4xl text-gray-400 font-poppins font-semibold'>Duct</h1>
+      <div id='textBox2-2' className={`bg-yellow-500 w-2/4 flex items-end  justify-center flex-col px-5  cursor-pointer max-[600px]:w-2/4 transition-colors duration-500 `}>
+          <h1 className='text-4xl text-gray-500 font-poppins font-semibold  max-[450px]:text-3xl wow animate__animated animate__fadeIn '>Kitchen</h1>
+          <h1 className='text-4xl text-gray-500 font-poppins font-semibold max-[450px]:text-3xl wow animate__animated animate__fadeIn '>Extraction</h1>
+          <h1 className='text-4xl text-gray-400 font-poppins font-semibold max-[450px]:text-3xl wow animate__animated animate__fadeIn '>Duct</h1>
         </div>
         <div id='imageBox2-2' className='w-2/4 h-72 wow animate__animated animate__fadeIn'>
           <video autoPlay loop muted playsInline 
