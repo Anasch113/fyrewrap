@@ -6,10 +6,10 @@ const Banner = () => {
 
 
   return (
-    <div className=' '>
+    <div className='overflow-hidden '>
       {/* Video Background */}
 
-      <div className="    ">
+      <div className="overflow-hidden    ">
         <video
           width="100%"
           height="100%"
@@ -23,7 +23,7 @@ const Banner = () => {
           playsinline 
           preload="auto" 
           allowFullScreen
-          className='min-h-screen-lg max-[600px]:min-h-0'
+          className='min-h-screen max-[600px]:min-h-0'
           
         ></video>
       </div>

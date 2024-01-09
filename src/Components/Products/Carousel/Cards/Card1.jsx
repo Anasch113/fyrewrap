@@ -2,9 +2,9 @@ import React from 'react'
 import img1 from "../../../../assets/crs-img-1.png"
 const Card1 = () => {
   return (
-    <div className='flex items-center flex-col gap-10 '>
+    <div className='flex items-center flex-col gap-10  '>
 
-      <div className='flex flex-row items-center justify-evenly  py-10 max-[550px]:flex-col max-[550px]:gap-10'>
+      <div className='flex flex-row items-center justify-evenly  py-10 max-[550px]:flex-col max-[550px]:gap-10 max-[550px]:p-5'>
         <div className='flex flex-col items-center justify-center gap-5  wow animate__animated animate__fadeIn '>
           <span className='text-center text-text-gray text-xl font-semibold'>Quick Application</span>
           <span className='text-center text-text-gray '>Its flexibility facilitate fast

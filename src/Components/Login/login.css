@@ -46,14 +46,18 @@ width: 100%;
 font-size: 40px;
 width: 500px;
 font-weight: 700;
-animation: fadeIn 1s ease-in-out;
+opacity: 0; /* Set initial opacity */
+transform: translateY(20px); /* Set initial translateY value */
+animation: fadeInUp 0.5s ease-in-out forwards;
 }
 
 
 .p-span p{
     font-size: 15px;
     width: 487px;
-    animation: fadeIn 1s ease-in-out;
+    opacity: 0; /* Set initial opacity */
+transform: translateY(20px); /* Set initial translateY value */
+animation: fadeInUp 0.5s ease-in-out forwards;
 }
 .right-container{
     display: flex;
@@ -231,5 +235,16 @@ text-align: center;
     }
     to {
       opacity: 1;
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
     }
   }

@@ -18,9 +18,9 @@ const Product = () => {
   
   return (
 
-    <div className='product-container'>
+    
 
-      <div className='w-full flex flex-col items-center gap-2  mb-10 overflow-hidden'>
+      <div className='w-full flex flex-col items-center gap-2'>
 
     
   
@@ -45,7 +45,7 @@ const Product = () => {
 
 
     </div>
-    </div>
+   
   )
 }
 

@@ -11,14 +11,14 @@ const Carousel = () => {
 setActivatedCard(cardNumber)
     }
   return (
-    <div className='w-full box-border m-0  flex items-center justify-center'>
+    <div className='w-full  flex items-center justify-center '>
         
-<div className='flex items-center justify-center flex-col  w-2/3 max-[700px]:w-full'>
+<div className='flex  items-center justify-center flex-col  w-2/3 max-[700px]:w-2/3 '>
 
-    <div className= ' flex gap-8   bg-gray-300 px-16 rounded-2xl max-[550px]:px-10 max-[550px]:gap-4'>
-<button onClick={()=> handleCardClick(1)} className={` font-semibold ${activatedCard === 1 ? 'text-white font-bold text-2xl  bg-gray-500 rounded-xl p-5 max-[550px]:p-2' : 'text-gray-500 text-xl hover:text-gray-400'}`}>Cost Savings</button>
-<button onClick={()=> handleCardClick(2)} className={` font-semibold ${activatedCard === 2 ? 'text-white font-bold text-2xl  bg-gray-500 rounded-xl p-5 max-[550px]:p-2' : 'text-gray-500 text-xl hover:text-gray-400'}`}>Space-Efficient</button>
-<button onClick={()=> handleCardClick(3)} className={` font-semibold ${activatedCard === 3 ? 'text-white font-bold text-2xl  bg-gray-500 rounded-xl p-5 max-[550px]:p-2' : 'text-gray-500 text-xl hover:text-gray-400'}`}>Enery-Savings</button>
+    <div className= ' flex gap-8   bg-gray-300 px-16 rounded-2xl max-[550px]:px-5 max-[550px]:gap-2'>
+<button onClick={()=> handleCardClick(1)} className={` font-semibold ${activatedCard === 1 ? 'text-white font-bold text-2xl  bg-gray-500 rounded-xl p-5 max-[550px]:p-1 max-[500px]:text-lg' : 'text-gray-500 text-lg hover:text-gray-400'}`}>Cost Savings</button>
+<button onClick={()=> handleCardClick(2)} className={` font-semibold ${activatedCard === 2 ? 'text-white font-bold text-2xl  bg-gray-500 rounded-xl p-5 max-[550px]:p-1 max-[500px]:text-lg' : 'text-gray-500 text-lg hover:text-gray-400'}`}>Space-Efficient</button>
+<button onClick={()=> handleCardClick(3)} className={` font-semibold ${activatedCard === 3 ? 'text-white font-bold text-2xl  bg-gray-500 rounded-xl p-5 max-[550px]:p-1 max-[500px]:text-lg' : 'text-gray-500 text-lg hover:text-gray-400'}`}>Enery-Savings</button>
 
     </div>
 

@@ -32,9 +32,9 @@ function App() {
 
 </Routes>
 
-
-<Footer/> 
 <ChatBotBtn/>
+<Footer/> 
+
       </Router>
       
     </>

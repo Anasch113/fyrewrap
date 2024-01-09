@@ -53,21 +53,21 @@ const Info = () => {
             <div className='row'>
 <div className='box'>
 
-<div className="box-data">
-<h5 className='h5-text'>Certifications</h5>
-<h2 className='long-h2'>Certifications of Conformity COC</h2>
+<div className="box-data  wow animate__animated animate__fadeInUp">
+<h5 className='h5-text '>Certifications</h5>
+<h2 className='long-h2 '>Certifications of Conformity COC</h2>
 <button onClick={openCOCfile}>View files</button>
 </div>
 </div>
 <div className='box'>
-<div className="box-data">
+<div className="box-data  wow animate__animated animate__fadeInUp">
 <p className= "p-text">Certifications</p>
 <h2 className='long-h2'>Material Submittle Sheet</h2>
 <button  onClick={openmssppath}>View Files</button>
 </div>
 </div>
 <div className='box'>
-<div className="box-data">
+<div className="box-data  wow animate__animated animate__fadeInUp">
 <p className= "p-text">Certifications</p>
 <h2 className='small-h2'>Articles</h2>
 <button  onClick={openArticlesPAth}>View files</button>
@@ -83,7 +83,7 @@ const Info = () => {
 
             <div className='row'>
             <div className='box'>
-<div className="box-data">
+<div className="box-data  wow animate__animated animate__fadeInUp">
 <p className= "p-text">Certifications</p>
 <h2 className='long-h2'>Product 
 Information 
@@ -93,7 +93,7 @@ Sheet</h2>
 </div>
 <div className='box'>
 
-<div className="box-data">
+<div className="box-data  wow animate__animated animate__fadeInUp">
 <p className= "p-text">Certifications</p>
 <h2 className='medium-h2'>Technical 
 Drawing</h2>
@@ -101,7 +101,7 @@ Drawing</h2>
 </div>
 </div>
 <div className='box'>
-<div className="box-data">
+<div className="box-data  wow animate__animated animate__fadeInUp">
 <p className= "p-text">Certifications</p>
 <h2 className='medium-h2'>Installation 
 Video</h2>
@@ -120,7 +120,7 @@ Video</h2>
             <div className='row'>
 <div className='box'>
 
-<div className="box-data">
+<div className="box-data  wow animate__animated animate__fadeInUp">
 <p className= "p-text">Certifications</p>
 <h2 className='medium-h2'>Safety Data 
 Sheet</h2>
@@ -128,7 +128,7 @@ Sheet</h2>
 </div>
 </div>
 <div className='box'>
-<div className="box-data">
+<div className="box-data  wow animate__animated animate__fadeInUp">
 <p className= "p-text">Certifications</p>
 <h2 className='medium-h2'>Installation 
 Manual</h2>
@@ -136,7 +136,7 @@ Manual</h2>
 </div>
 </div>
 <div className='box'>
-<div className="box-data">
+<div className="box-data  wow animate__animated animate__fadeInUp">
 <p className= "p-text">Certifications</p>
 <h2 className='small-h2'>Application</h2>
 <button onClick={openpcspath}>View files</button>

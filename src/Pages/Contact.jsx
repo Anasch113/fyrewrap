@@ -11,12 +11,12 @@ const Contact = () => {
 
 
 <div className='ai-chat-box'>
-<h1 className='text-5xl text-white font-poppins font-bold self-start max-[550px]:text-2xl  wow animate__animated animate__fadeIn'>Want to find out more?</h1>
+<h1 className='text-5xl text-white font-poppins font-bold self-start max-[550px]:text-2xl  wow animate__animated animate__fadeInUp'>Want to find out more?</h1>
 <div className="chatting">
-  <h3 className=' wow animate__animated animate__fadeIn'>FyreWrap</h3>
+  <h3 className=' wow animate__animated animate__fadeInUp'>FyreWrap</h3>
   <div className='flex flex-col'>
   <span className='bg-yellow-500 p-3 rounded-full w-2 h-2  -left-7  -top-1  relative'></span>
-  <h5 className=' wow animate__animated animate__fadeIn'>Hello and welcome to FyreWrap Assistance! I'm your dedicated FyreWrap Agent, ready to help with all your needs. please share your name and email. 
+  <h5 className=' wow animate__animated animate__fadeInUp'>Hello and welcome to FyreWrap Assistance! I'm your dedicated FyreWrap Agent, ready to help with all your needs. please share your name and email. 
 Whether it's about product details, installation guidance, compliance with fire safety codes, quote or any other inquiries regarding FyreWrap, I'm here to 
 assist. How can I help you today?</h5>
   </div>

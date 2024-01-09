@@ -38,6 +38,9 @@ export default {
       fontFamily: {
         'poppins': ['Poppins', 'sans-serif'],
       },
+      backgroundImage:{
+        'hero-pattern': "url('../assets/cars-bg.svg')",
+      }
     },
   },
   plugins: [],

@@ -41,6 +41,9 @@ padding: 0;
    background-color: gray;
 padding: 0px 20px;
    border-radius: 30px;
+   opacity: 0; /* Set initial opacity */
+transform: translateY(20px); /* Set initial translateY value */
+animation: fadeInUp 0.5s ease-in-out forwards;
    
     
     
@@ -99,3 +102,20 @@ margin-top: -5px;
     padding: 15px;
 }
 }
+
+
+
+
+
+
+
+@keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }

@@ -18,7 +18,7 @@ const ChatBotModal = ({ isOpen, onRequestClose }) => {
       <img src={logo} alt="" />
         <button onClick={onRequestClose}>&times;</button>
       </div>
-      <div className="modal-body">
+      <div className="modal-body ">
 
 
 

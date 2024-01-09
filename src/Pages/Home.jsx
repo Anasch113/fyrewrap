@@ -11,6 +11,9 @@ import Info from '../Components/Products/Info/Info'
 const Home = () => {
   return (
     <>
+    <div >
+
+   
     <Navbar/>
     <div className='home'>
    
@@ -29,7 +32,7 @@ const Home = () => {
     
     
 
-   
+     </div>
      
  
     
