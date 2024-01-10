@@ -2,7 +2,7 @@ import React from 'react'
 import product2 from "../../assets/crmproduct2.png"
 const Product2 = () => {
   return (
-    <div className ="px-10 max-[680px]:px-5 w-full   max-[400px]:-top-8 relative "> 
+    <div className =" max-[680px]:px-5 w-full   max-[400px]:-top-8 relative "> 
 
  
 

@@ -3,7 +3,7 @@ import product1 from "../../assets/crmproduct1.mp4"
 import "./product.css"
 const Product1 = () => {
   return (
-    <div className =" w-full  max-[680px]:px-5  px-10 mt-2 max-[400px]:-top-12 relative max-[500px]:mt-14 overflow-hidden "> 
+    <div className =" w-full  max-[680px]:px-5 mt-2 max-[400px]:-top-12 relative max-[500px]:mt-14 overflow-hidden "> 
 
  
 
